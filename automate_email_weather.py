@@ -72,7 +72,7 @@ def email_weather(city_name, weather_list, email_information):
         server.sendmail(sender_email, receiver_email, message)
 
 
-city = "Santa Ana"
+city = "Irvine"
 
 userName = input("Gmail account: ")
 userPassword = input("Password: ")
